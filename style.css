@@ -15,9 +15,61 @@ body {
 h1 {
     font-family: celtic;
     font-weight: 300;
+    color: rgb(31, 23, 42);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(46, 32, 53);
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(50, 34, 60);    
+}
+
+ul {
+    font-family: mine;
+    font-size: 15px;
+    color: rgb(198, 202, 201);
+    line-height: 25px;
+}
+
+ol {
+    font-family: mine;
+    font-size: 15px;
+    color: rgb(198, 202, 201);
+    line-height: 30px;
+}
+
+#list2 {
+    font-size: 14px;
+}
+
+#list3 {
+    font-size: 13px;
+}
+
+#list4 {
+    font-size: 12px;
+}
+
+#list5 {
+    font-size: 11px;
+}
+
+#list6 {
+    font-size: 10px;
 }
 
 #desc {
     font-family: mine;
     font-size: 15px;
+    color: rgb(198, 202, 201);
+}
+
+#recomenda {
+    font-family: mine;
+    font-size: 15px;
+    color: rgb(198, 202, 201);
 }
