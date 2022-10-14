@@ -1,10 +1,14 @@
+body {
+    background-color: rgb(127, 111, 125);
+}
+
 @font-face {
     src: url(fonts/celticmd.ttf);
     font-family: celtic;
 }
 
 @font-face {
-    src: url(fonts/Minecraft.ttf);
+    src: url(fonts/Minecraftia-Regular.ttf);
     font-family: mine;
 }
 
