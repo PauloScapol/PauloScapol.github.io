@@ -2,43 +2,56 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Paulo Scapol Barbosa</title>
+        <title>Paulo Scapol Barbosa - Futuro Web Designer</title>
     </head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <body>
         <h1>Paulo Scapol Barbosa</h1>
-        <p><img src="Eu.jpg" alt="Eu no Castelo dos Mouros, na Vila de Sintra, Portugal" width="300px"></p>
-        <p><a href="Eu.jpg">Clique aquí</a> para abrir a imagem</p>
-        <h2>Índice</h2>
-        <ol>
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#hab">Habilidades</a></li>
-            <li><a href="#recomenda">Recomendações</a></li>
-        </ol>
+        
+        <p><img src="Eu.jpg" alt="Eu no Castelo dos Mouros, na Vila de Sintra, Portugal" id="foto"></p>
+        
+        <div id="indice">
+            <h2>Índice</h2>
+            <ol>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#hab">Habilidades</a></li>
+                <li><a href="#recomenda">Recomendações</a></li>
+            </ol>
+        </div>
+        
         <h3 id="sobre">Sobre mim</h3>
-        <p id="desc">Meu nome é <strong>Paulo Scapol Barbosa</strong> , naci na cidade de 
-        <em>São Bernardo do Campo</em> , <em>São Paulo</em> , <em>Brasil</em>, mas morei 
-        dos meus 11 meses até meus 15 anos na cidade de <em>Resende</em> , 
-        interior do <em>Rio de Janeiro</em> .</p>
-        <p id="desc">Aos meus 16 anos de idade , mudei ao México com a minha 
-        família, por causa do trabalho do meu pai , e lá estudei os 
-        últimos 2 anos do Ensino Médio e a Faculdade de Engenharia 
-        Civil .</p>
-        <p id="desc">Agora , já formado engenheiro , voltei para Resende em
-        busca de trabalho , porém , depois de algumas entrevistas sem 
-        respostas , decidi que queria tentar algo novo e foi assim 
-        que decidi me matricular no curso de Desenvolvimento Web na 
-        Trybe .</p>
+        <div id="sobremim">
+            <p class="desc">Meu nome é <strong>Paulo Scapol Barbosa</strong> , naci na cidade de 
+            <em>São Bernardo do Campo</em> , <em>São Paulo</em> , <em>Brasil</em>, mas morei 
+            dos meus 11 meses até meus 15 anos na cidade de <em>Resende</em> , 
+            interior do <em>Rio de Janeiro</em> .
+            </p>
+            
+            <p class="desc">Aos meus 16 anos de idade , mudei ao México com a minha 
+            família, por causa do trabalho do meu pai , e lá estudei os 
+            últimos 2 anos do Ensino Médio e a Faculdade de Engenharia 
+            Civil .
+            </p>
+            
+            <p class="desc">Agora , já formado engenheiro , voltei para Resende em
+            busca de trabalho , porém , depois de algumas entrevistas sem 
+            respostas , decidi que queria tentar algo novo e foi assim 
+            que decidi me matricular no curso de Desenvolvimento Web na 
+            Trybe .
+            </p>
+        </div>
+        
         <h3 id="hab">Habilidades: </h3>
         <ul>
-            <li id="list1"><strong>Trilíngue</strong></li>
-            <li id="list2">Conhecimento de Pacote Office</li>
-            <li id="list3">Matlab / C++</li>
-            <li id="list4">Comprometimento</li>
-            <li id="list5">Trabalho em equipe</li>
-            <li id="list6">Facilidade de comunicação</li>
+            <li class="impar">Trilíngue</li>
+            <li class="par">Conhecimento de Pacote Office</li>
+            <li class="impar">Matlab / C++</li>
+            <li class="par">Comprometimento</li>
+            <li class="impar">Trabalho em equipe</li>
+            <li class="par">Facilidade de comunicação</li>
         </ul>
-        <h3>Recomendações</h3>
+        
+        <h3 id="reco">Recomendações</h3>
         <p id="recomenda">Eu não sou uma pessoa que lê muito na internet , o que 
         eu mais faço na internet , para passar o tempo ou me destrair 
         um pouco é ver lives , especialmente o <a href="https://www.twitch.tv/alanzoka" target="_blank">Alanzoka</a> , 

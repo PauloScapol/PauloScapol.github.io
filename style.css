@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(127, 111, 125);
+    background-color: rgb(128, 117, 126);
 }
 
 @font-face {
@@ -12,64 +12,105 @@ body {
     font-family: mine;
 }
 
+@font-face {
+    src: url(fonts/JMH\ Typewriter.ttf);
+    font-family: typewriter;
+}
+
 h1 {
+    text-align: center;
     font-family: celtic;
+    font-size: 50px;
     font-weight: 300;
     color: rgb(31, 23, 42);
 }
 
-h2 {
-    font-size: 30px;
-    color: rgb(46, 32, 53);
+#foto {
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    background-color: black;
 }
 
-h3 {
-    font-size: 25px;
-    color: rgb(50, 34, 60);    
+#sobre {
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 330px;
+}
+
+#sobremim {
+    position: absolute;
+    z-index: 3;
+    top: 190px;
+    left: 330px;
+    font-family: mine;
+    font-size: 15px;
+    color: rgb(198, 202, 201);
+}
+
+#indice {
+    position: absolute;
+    z-index: 4;
+    top: 450px;
+    border: 2px solid black;
+}
+
+#hab {
+    position: absolute;
+    z-index: 5;    
+    top: 630px;
 }
 
 ul {
+    position: absolute;
+    z-index: 6;
+    top: 690px;
     font-family: mine;
     font-size: 15px;
     color: rgb(198, 202, 201);
     line-height: 25px;
 }
 
+#reco {
+    position: absolute;
+    z-index: 7;
+    top: 860px;
+}
+
+#recomenda {
+    position: absolute;
+    z-index: 8;
+    top: 920px;
+    padding-bottom: 30px;
+    font-family: mine;
+    font-size: 15px;
+    color: rgb(198, 202, 201);
+}
+
+h3 {
+    font-size: 25px;
+    font-family: typewriter;
+    color: rgb(50, 34, 60);    
+}
+
+h2 {
+    font-size: 30px;
+    font-family: typewriter;
+    color: rgb(46, 32, 53);
+}
+
 ol {
     font-family: mine;
     font-size: 15px;
     color: rgb(198, 202, 201);
-    line-height: 30px;
+    line-height: 25px;
+    margin-right: 20px;
 }
 
-#list2 {
-    font-size: 14px;
-}
 
-#list3 {
-    font-size: 13px;
-}
-
-#list4 {
-    font-size: 12px;
-}
-
-#list5 {
-    font-size: 11px;
-}
-
-#list6 {
-    font-size: 10px;
-}
-
-#desc {
-    font-family: mine;
-    font-size: 15px;
-    color: rgb(198, 202, 201);
-}
-
-#recomenda {
-    font-family: mine;
-    font-size: 15px;
-    color: rgb(198, 202, 201);
+.impar {
+    color: black;
+    font-style: italic;
 }
